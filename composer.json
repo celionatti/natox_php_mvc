@@ -1,0 +1,20 @@
+{
+    "name": "celionatti/natox",
+    "description": "natox PHP Framework",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "natox\\": "src/",
+            "natoxCore\\": "core/"
+        }
+    },
+    "authors": [{
+        "name": "celionatti",
+        "email": "amisuusman@gmail.com"
+    }],
+    "minimum-stability": "stable",
+    "require": {
+        "vlucas/phpdotenv": "^5.4"
+    }
+}
